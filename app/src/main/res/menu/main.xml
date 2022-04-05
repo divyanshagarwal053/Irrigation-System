@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Share"
+        android:id="@+id/share"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_share" />
+
+    <item
+        android:title="Camera"
+        android:id="@+id/camera"
+        app:showAsAction="never"
+        android:orderInCategory="100" />
+
+    <item
+        android:title="Weather"
+        android:id="@+id/weather"
+        app:showAsAction="never"
+        android:orderInCategory="101" />
+
+    <item
+        android:title="Soil Details"
+        android:id="@+id/report"
+        app:showAsAction="never"
+        android:orderInCategory="102" />
+
+</menu>
